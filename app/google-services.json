@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "489491278380",
+    "project_id": "gig-passer-19dac",
+    "storage_bucket": "gig-passer-19dac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489491278380:android:274a0f6fda957f23367f89",
+        "android_client_info": {
+          "package_name": "com.example.gigpasser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489491278380-uc29si09hq68l9v1rrc3nm3voiravfnn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gigpasser",
+            "certificate_hash": "1bfc2586220c52f4be43e4b8498da746cc9ad73b"
+          }
+        },
+        {
+          "client_id": "489491278380-c8pl431ch8nklk1ido2puki894tp0ok1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXzI0X5MUlW7qPpwHmXObJTV2YvD3TVls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489491278380-c8pl431ch8nklk1ido2puki894tp0ok1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

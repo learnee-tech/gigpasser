@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:orientation="vertical"
+android:layout_height="match_parent"
+tools:context=".profile">
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/teal_700"
+    android:elevation="4dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
+
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/capriola"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textAllCaps="true"
+        android:background="@drawable/myborder"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+<de.hdodenhof.circleimageview.CircleImageView
+    android:id="@+id/profile_image"
+    android:src="@drawable/ic_person"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:layout_width="100dp"
+    android:layout_height="100dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="100">
+        <TextView
+            android:layout_margin="5dp"
+            android:textSize="18sp"
+            android:text="Name: "
+            android:background="@drawable/myborder"
+            android:fontFamily="@font/capriola"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_margin="5dp"
+                android:background="@drawable/myborder"
+                android:textSize="18sp"
+                android:fontFamily="@font/capriola"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="100">
+            <TextView
+                android:layout_margin="5dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/myborder"
+                android:gravity="center"
+                android:fontFamily="@font/capriola"
+                android:text="Email:"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/email"
+                android:layout_margin="5dp"
+                android:textSize="18sp"
+                android:background="@drawable/myborder"
+                android:fontFamily="@font/capriola"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="100">
+                <TextView
+                    android:layout_margin="5dp"
+                    android:textSize="18sp"
+                    android:text="Id Number:"
+                    android:background="@drawable/myborder"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/capriola"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/idnumber"
+                    android:layout_margin="5dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/myborder"
+                    android:fontFamily="@font/capriola"
+                    android:textColor="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="100">
+            <TextView
+                android:layout_margin="5dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/capriola"
+                android:gravity="center"
+                android:text="Mobile No:"
+                android:background="@drawable/myborder"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/phonenumber"
+                    android:layout_margin="5dp"
+                    android:textSize="18sp"
+                    android:background="@drawable/myborder"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/capriola"
+                    android:textColor="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Left Lens Number: "
+            android:textColor="#020A37"
+            android:background="@drawable/myborder"
+            android:fontFamily="@font/capriola"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/lefteye"
+            android:layout_margin="5dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/capriola"
+            android:textAllCaps="true"
+            android:background="@drawable/myborder"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Right Lens Number: "
+            android:textColor="#020A37"
+            android:background="@drawable/myborder"
+            android:fontFamily="@font/capriola"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/righteye"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/capriola"
+            android:background="@drawable/myborder"
+            android:textAllCaps="true"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+
+<Button
+    android:id="@+id/backbutton"
+    android:layout_marginEnd="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="10dp"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:textAllCaps="true"
+    android:background="@drawable/button_background"
+    android:textColor="#fff"
+    android:text="Back"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

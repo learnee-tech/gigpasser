@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">gigpasser</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="lensorframe">
+        <item>Select the object to donate</item>
+        <item>Only Lenses</item>
+        <item>Only Frame</item>
+        <item>Both, Lenses and Frame</item>
+    </string-array>
+    <string-array name="lensorframerequirement">
+        <item>Select the object required</item>
+        <item>Only Lenses</item>
+        <item>Only Frame</item>
+        <item>Both, Lenses and Frame</item>
+    </string-array>
+</resources>
